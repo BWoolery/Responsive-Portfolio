@@ -18,7 +18,7 @@ body{
     background-color: white;
     height: 50px;
     margin: 0;
-    padding-left:260px;
+    /* padding-left:260px; */
 }
 
 #nav h1{
@@ -28,8 +28,13 @@ body{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     height: 100%;
+    display: inline-block;
     /* margin-left: 100px;  */
     
+}
+#nav ul{
+  display: inline-block;
+  float: right;
 }
 
 a{
@@ -39,10 +44,11 @@ a{
 
 li{
     float: right;
-    padding: 10px;
     list-style: none;
+    padding: 15px;
     
 }
+
 
 #main-content{
     width: 960px;
@@ -157,3 +163,160 @@ button {
 }
 
 
+
+
+
+
+@media screen and (max-width: 980px){
+  #nav{
+    padding: 0px;
+    height: 100px;
+    
+  }   
+  #nav h1{
+    display: block;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  } 
+  #nav ul{
+    display: block;
+    text-align: center;
+    
+
+  }
+  #main-content{
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    padding: 30px;
+  }
+  #picture{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #bio{
+    background-color:white;
+    display: block;
+    text-align: center;
+    width: 100%;
+  } 
+  #contact{
+    width: 600px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  #nav{
+     padding: 0px;
+     height: 100px;
+     
+   }   
+   #nav h1{
+     display: block;
+     height: 50px;
+     text-align: center;
+     width: 100%;
+     
+   } 
+   #nav ul{
+     display: block;
+     text-align: center;
+
+     
+   }
+   #main-content{
+     background-color: white;
+     width: 600px;
+     height: 700px;
+     padding: 5px;
+     margin: 0 auto;
+   }
+ 
+   #picture{
+     display: block;
+     text-align: center;
+   }
+ 
+   #bio{
+     background-color:white;
+     display: block;
+     text-align: center;
+   }
+   #contact{
+    width: 500px;
+  }
+  #portfolio{
+    width:500px;
+    height: 3000px;
+  }
+
+  img{
+  display: block;
+  }
+  
+ }
+
+
+
+
+@media screen and (max-width: 640px){
+    #nav{
+      padding: 0px;
+      height: 100px;
+      
+    }   
+    #nav h1{
+      display: block;
+      height: 50px;
+      text-align: center;
+      width: 100%;
+      margin: 0px;
+    } 
+    #nav ul{
+      display: block;
+      text-align: center;
+      
+    }
+
+    #main-content{
+      background-color: white;
+      width: 500px;
+      height: 700px;
+      padding: 5px;
+    }
+    #picture{
+      display: block;
+      text-align: center;
+    }
+
+    #bio{
+      background-color:white;
+      display: block;
+      text-align: center;
+    }
+    
+    #contact{
+      width: 400px;
+    }
+
+    form{
+      width: 355px;
+    }
+    
+    #portfolio{
+      width:500px;
+      height: 3000px;
+    }
+
+    img{
+    display: block;
+    }
+    
+    
+}
